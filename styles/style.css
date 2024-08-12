@@ -3,7 +3,7 @@
 .font-style{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -12,7 +12,8 @@
 }
 
 .nav-bar{
-
+  justify-content: space-between;
+  
 }
 .nav-items{
   list-style: none;
@@ -22,5 +23,13 @@
 
 .nav-links{
   text-decoration: none;
+ 
+}
+.nav-bar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+header{
+  background-color: rgba(17, 17, 17, 1.00);
 }
   
