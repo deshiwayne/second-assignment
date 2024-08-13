@@ -7,6 +7,14 @@
   font-style: normal;
 }
 
+*{
+  overflow-x: hidden;
+}
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .display-flex{
   display: flex;
 }
@@ -18,18 +26,129 @@
 .nav-items{
   list-style: none;
   margin-right: 45px;
+  color: rgba(255, 255, 255, 1.00);
 
 }
 
 .nav-links{
   text-decoration: none;
+  color: rgba(255, 255, 255, 1.00) ;
+  
  
 }
 .nav-bar, .banner{
   max-width: 1440px;
   margin: 0 auto;
+  
 }
 header{
   background-color: rgba(17, 17, 17, 1.00);
+}
+
+.brand{
+  color: rgba(230, 83, 60, 1.00);
+  font-style: italic;
+  font-weight: 800;
+  font-size: 2rem;
+  margin-left: 4rem;
+}
+
+.banner-image{
+  width: 300px;
+
+}
+
+.nav-item{
+  margin-top: 1.8rem;
+  margin-right: 4rem;
+ 
+}
+ul{
+  border: 0.75px solid rgb(202, 196, 196);
+  border-radius: 50px;
+  padding: 10px 0px 12px 0px;
+  
+  
+}
+.banner
+{
+  color: rgba(255, 255, 255, 1.00);
+  margin-left: 4rem;
+
+}
+.p1{
+  width: 53%;
+}
+.font{
+  font-size: 4rem;
+  width: 450px;
+}
+.button,.button2{
+  padding: 10px 23px 10px 22px;
+  border-radius: 50px;
+  border: none; 
+}
+
+.button{
+  background-color: rgba(230, 83, 60, 1.00);
+}
+.img-box{
+  margin-right: 8.2rem;
+}
+.home{
+  background-color: rgba(230, 83, 60, 1.00);
+  padding:10px 15px 12px 15px;
+  border-radius: 20px;
+  
+}
+.banner-box,.banner-box2{
+  width: 12%;
+  border: 1px solid #c7bcd747;
+  border-radius: 20px;
+  background: #c7bcd747;
+  box-shadow: 2px 3px #c7bcd747, inset 2px 3px #c7bcd747;
+  margin: 20px 19px 20px 20px;
+  padding: 7px 9px 13px 6px;
+  color:rgb(255, 255, 255);
+
+}
+.banner-box{
+  border: 1px solid white;
+  position: absolute;
+  top: 160px;
+  left: 1000px;
+
+}
+.box-content{
+  font-size: 2rem;
+}
+.banner-content2{
+  font-size: 14px;
+}
+.banner-box2{
+  position: absolute;
+  top: 350px;
+  left: 700px;
+
+}
+.circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(230, 83, 60, 1.00);
+  margin-top: 30px;
+  
+}
+.banner-text{
+  margin-top: 1.5rem;
+}
+.p1{
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.50);
+}
+.italic{
+  font-family: 'Miama', sans-serif;
+  font-size: 5rem;
+                                                
 }
   

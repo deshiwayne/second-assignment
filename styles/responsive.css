@@ -1,0 +1,17 @@
+@media screen and (max-width: 576px) 
+{
+  .line{
+    width: 30px;
+    height: 3px;
+    background-color: #eae7e7;
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+  .nav-items{
+    display: none;
+  }
+  .content,.banner-box2{
+    display: none;
+  }
+
+}
