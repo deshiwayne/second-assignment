@@ -628,15 +628,16 @@ input:focus {
 .team-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 0rem;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    padding: 2rem;
+    /* margin: 0 auto; */
     background-color: #3e3c3c;
-    border: 2px solid #b0b0b0;
+    border: 1px solid #b0b0b0;
     border-radius: 30px;
-    max-width: 1200px;
+    max-width: 950px;
+    margin-left: 80px;
 
 
 
@@ -651,7 +652,7 @@ input:focus {
 }
 
 
-.image-box:nth-child(1) {
+/* .image-box:nth-child(1) {
     width: 93%;
     height: 82%;
 }
@@ -685,7 +686,7 @@ input:focus {
 .image-box:nth-child(6) {
     width: 87%;
     height: 80%;
-}
+} */
 
 .team-name h3 {
     font-size: 1.5rem;
@@ -783,4 +784,8 @@ hr {
 .copyright {
     text-align: center;
     padding: 1.2rem;
+}
+
+.text-cl{
+  color: rgba(255, 255, 255, 0.50);
 }
