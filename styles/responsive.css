@@ -52,7 +52,7 @@
     .btn-items {
         position: absolute;
         width: 100%;
-        top: 18%;
+        top: 20%;
         left: -5%;
         max-width: 800px;
         margin-top: 2rem;
@@ -110,8 +110,10 @@
         display: block;
         margin: 20px auto;
         position: absolute;
-        top: 202%;
+        top: 80%;
         left: 25px;
+        width: 36px ;
+        height: 36px;
     }
 
     .main-title {
@@ -312,6 +314,7 @@
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
         max-width: 800px;
+        margin-left: 4px;
     }
 
 
