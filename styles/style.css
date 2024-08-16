@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/miami?styles=119809');
+@import url('https://fonts.cdnfonts.com/css/miama');
 
 * {
     margin: 0;
@@ -109,8 +110,10 @@ header {
     font-weight: 800;
 }
 
-.italic {
-    font-family: 'Real Miami', sans-serif;
+.tomato{
+    font-family: 'Miama', sans-serif;
+    font-size: 5rem;
+    margin-left: -10px;
 }
 
 .sub-title {
@@ -638,7 +641,7 @@ input:focus {
     border-radius: 30px;
     max-width: 950px;
     margin-left: 80px;
-
+    
 
 
 }
@@ -648,6 +651,8 @@ input:focus {
     border-radius: 10px;
     text-align: center;
     width: 100%;
+    object-fit: cover;
+    
 
 }
 
