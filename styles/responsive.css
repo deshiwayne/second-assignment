@@ -1,5 +1,5 @@
 /* Small devices (mobile) */
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .hamburger {
         display: flex;
         align-items: flex-end;
@@ -110,7 +110,7 @@
         display: block;
         margin: 20px auto;
         position: absolute;
-        top: 80%;
+        top: 81%;
         left: 25px;
         width: 36px ;
         height: 36px;
@@ -367,6 +367,15 @@
     .footer-text {
         margin: 0;
         font-size: 14px;
+    }
+    .tomato {
+        font-family: 'Miama', sans-serif;
+        font-size: 3rem;
+        margin-left: -10px;
+    }
+    .noClass,
+.tutorial-text{ 
+        margin-left: 20px;
     }
 
 }
